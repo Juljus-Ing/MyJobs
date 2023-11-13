@@ -2,5 +2,74 @@ body{
     background-image: url(assets/fondo.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+body img{
+    width: 300px;
+}
+header{
+    display: block;
+    align-items: center;
+    padding: 0;
+    background-color: #232d3fc4;
+}
+header nav{
+    margin-left: 220px;
+
+}
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 60px;
+    transition: .5s;
+    font-size: 25px;
+}
+.inicio{
+    background-color: #232d3f9b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+.inicio .text{
+    font-size: 60px;
+}
+.inicio .text p {
+    margin-top: -68px;
+    font-size: 4vh;
+    margin-left: 250px;
+}
+.inicio img{
+    width: 65vh;
+}
+.argumento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+.argumento .text{
+    width: 20%;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-right: 20%;
+}
+.argumento img{
+    margin-left: 20%;
+}
+.referente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: 4vh;
 }
