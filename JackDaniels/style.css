@@ -139,7 +139,7 @@ header nav a{
 }
 
 .tituloprod{
-    margin: 15px;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -155,8 +155,6 @@ header nav a{
     margin-right: 40px;
 }
 
-.producto_izq{
-}
 .producto_izq img{
     margin-left: 15%;
     width: 35%;
@@ -174,6 +172,43 @@ header nav a{
     margin-right: 15%;
     width: 35%;
 }
-.desc{
+
+
+.container_izq{
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+}
+.desc_izq p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -7%;
+    font-size: 3.5vh;
+}
+.desc_izq img{
+    width: 90%;
+}
+
+.container_der{
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+}
+.desc_der p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -7%;
+    font-size: 3.5vh;
+}
+.desc_der img{
+    width: 90%;
+}
+
+.producto{
+    margin: 50px;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
