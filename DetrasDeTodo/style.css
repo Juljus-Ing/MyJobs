@@ -84,18 +84,31 @@ body{
 .resto{
     position: absolute;
     top: 120px;
-    left: 42%;
+    left: 43%;
     font-family: 'Geo Regular';
     font-size: 17vh;
     color: red;
-    width: 900px;
+    width: 700px;
 }
-#tonto{
+#nota{
     width: 770px;
-    height: 600px;
-    top: 400px;
-    margin-left: -20px;
+    height: 650px;
+    top: 375px;
+    margin-left: -5px;
     z-index: 3;
+}
+#descubre{
+    width: 425px;
+    height: 400px;
+    top: 550px;
+    margin-left: -290px;
+    z-index: 4;
+}
+#blanco{
+    width: 325px;
+    height: 275px;
+    top: 275px;
+    margin-left: -550px;
 }
 
 #estilo{
