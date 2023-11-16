@@ -1,3 +1,87 @@
+@font-face {
+    font-family: 'Geo Regular';
+    src: url(assets/fonts/Geomanist-Regular.otf);
+}
+@font-face {
+    font-family: 'Geo Bold';
+    src: url(assets/fonts/Geomanist-Bold.otf);
+}
+@font-face {
+    font-family: 'Geo Medium';
+    src: url(assets/fonts/Geomanist-Medium.otf);
+}
+
+header{
+    position: relative;
+}
+.header{
+    display: flex;
+    position: relative;
+    border-color: red;
+    border-width: 15px;
+    position: relative;
+}
+.logo, .mano{
+    position: absolute;
+}
+.logo{
+    width: 65%;
+    z-index: 2;
+    top: 150px;
+    left: 95px;
+}
+.mano{
+    width: 35%;
+    z-index: 1;
+    left: 850px;
+
+}
 body{
     background: linear-gradient(to bottom, #4dc0d5, #6b5ba6);
+    background-size: cover;
+    background-position: center;
+}
+
+.scroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+.scroll img{
+    
+    position: absolute;
+    margin-top: 350px;
+}
+.scroll p{
+    font-family: 'Geo Bold';
+    font-size: 6.5vh;
+    color: white;
+    width: 600px;
+    align-items: center;
+    margin: 0;
+    letter-spacing: 5px;
+}
+#scroll{
+    width: 220px;
+    height: 170px;
+}
+#circulo{
+    width: 375px;
+    height: 275px;
+}
+
+.camino{
+    position: relative;
+    z-index: 1;
+}
+
+.camino img{
+    width: 90%;
+}
+.resto{
+    position: absolute;
+    z-index: 2;
 }
