@@ -79,19 +79,25 @@ body{
 }
 
 .camino img{
-    width: 90%;
+    width: 91%;
 }
 .resto{
     position: absolute;
-    top: 125px;
-    left: 40%;
-}
-.resto p{
+    top: 120px;
+    left: 42%;
     font-family: 'Geo Regular';
-    font-size: 18vh;
+    font-size: 17vh;
     color: red;
     width: 900px;
 }
+#tonto{
+    width: 770px;
+    height: 600px;
+    top: 400px;
+    margin-left: -20px;
+    z-index: 3;
+}
+
 #estilo{
     font-family: 'Geo Bold';
 }
