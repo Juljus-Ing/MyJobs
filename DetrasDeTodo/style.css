@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Geo Regular';
+    src: url(assets/fonts/Geomanist-Regular.otf);
+}
+@font-face {
+    font-family: 'Geo Medium';
+    src: url(assets/fonts/Geomanist-Medium.otf);
+}
+@font-face {
+    font-family: 'Geo Bold';
+    src: url(assets/fonts/Geomanist-Bold.otf);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 1100px;
+    height: 600px;
+}
+body{
+    background-image: linear-gradient(to bottom, white 80%, #6B5CA5);
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -120px;
+}
+.mensaje p{
+    font-size: 29pt;
+    margin: 0;
+    color: #f24e29;
+    text-align: center;
+}
+#bold {
+    font-family: 'Geo Bold';
+}
+#regular{
+    font-family: 'Geo Regular';
+}
+#camino{
+    width: 100%;
+}
+.contenedor{
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+.abs{
+    position: absolute;
+    z-index: 1;
+}
+#scroll{
+    top: 3.35%;
+    left: 50%;
+    font-family: 'Geo Bold';
+    font-size: 32pt;
+    color: #54bf6f;
+}
+#imagenHistoria{
+    width: 35%;
+    top: 5.1%;
+    left: 18%;
+}
+#jorge{
+    width: 33%;
+    top: 5.05%;
+    left: 53%;
+    z-index: 2;
+    transform: rotate(-1.5deg);
+    height: 13.4%;
+}
+#papelAmarillo{
+    width: 50%;
+    height: 14%;
+    top: 10%;
+    left: 12%;
+}
+#tituloAmarillo{
+    top: 8.5%;
+    left: 20%;
+    font-size: 50pt;
+    font-family: 'Geo Bold';
+    text-align: center;
+    color: white;
+}
+#amarillo{
+    color: #f2d027;
+
+}
+#textoAmarillo{
+    font-family: 'Geo Regular';
+    color: white;
+    top: 13.8%;
+    font-size: 18pt;
+    text-align: center;
+    left: 21%;
+}
