@@ -1,0 +1,48 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: detras de todo diseño 3.ai
+Modo de color: Color CMYK
+Perfil de color: Coated FOGRA39 (ISO 12647-2:2004)
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 1044 px x 6760,8882 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Geomanist (OTF)
+Geomanist Bold (OTF)
+Geomanist Medium (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+C:\Users\LENOVO\Desktop\Archivos\9 Semestre\Proyecto interactivo\2 corte\Layout heroe urbano\IMG\andres-5.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 1264K, 581 por 557 píxeles
+Dimensiones: 466,517 por 447,246 puntos 
+Resolución: 89,669 por 89,669 píxeles por pulgada
