@@ -162,3 +162,41 @@ body{
     top: 45%;
     left: 30%;
 }
+
+
+
+#papelAzul{
+    width: 60%;
+    height: 13.5%;
+    top: 55.5%;
+    left: 25%;
+}
+#circuloAzul{
+    width: 20%;
+    top: 51.8%;
+    left: 76%;
+}
+#tituloAzul{
+    font-size: 55pt;
+    font-family: 'Geo Bold';
+    text-align: center;
+    color: #3960AA;
+}
+#tituAzul{
+    top: 54%;
+    left: 33%;
+}
+#tituAzul #fundacion{
+    margin-top: -98px;
+    color: white;
+    font-size: 55pt;
+    font-family: 'Geo Bold';
+    text-align: center;
+}
+
+
+#podcast{
+    width: 33%;
+    top: 67.8%;
+    left: 57.5%;
+}
