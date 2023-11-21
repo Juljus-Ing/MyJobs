@@ -20,9 +20,9 @@ header img{
     height: 600px;
 }
 body{
-    background-image: linear-gradient(to bottom, white 80%, #6B5CA5);
-
-    
+    background-image: linear-gradient(to bottom, white 80%, #6B5CA5);       
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .container{
     display: flex;
@@ -61,6 +61,8 @@ body{
     font-size: 32pt;
     color: #54bf6f;
 }
+
+
 #imagenHistoria{
     width: 35%;
     top: 5.1%;
@@ -81,16 +83,21 @@ body{
     left: 12%;
 }
 #tituloAmarillo{
-    top: 8.5%;
-    left: 20%;
     font-size: 50pt;
     font-family: 'Geo Bold';
     text-align: center;
-    color: white;
-}
-#amarillo{
     color: #f2d027;
-
+}
+#tituAma{
+    top: 8.85%;
+    left: 20.5%;
+}
+#tituAma #revelador{
+    margin-top: -95px;
+    color: white;
+    font-size: 50pt;
+    font-family: 'Geo Bold';
+    text-align: center;
 }
 #textoAmarillo{
     font-family: 'Geo Regular';
@@ -99,4 +106,59 @@ body{
     font-size: 18pt;
     text-align: center;
     left: 21%;
+}
+
+
+
+#imgRoja{
+    width: 37%;
+    top: 18.9%;
+    left: 33%;
+    transform: rotate(0.5deg);
+}
+#tituloRojo{
+    font-size: 75pt;
+    font-family: 'Geo Bold';
+    text-align: center;
+    color: #f24e29;
+}
+#tituRojo{
+    top: 28.2%;
+    left: 33.5%;
+}
+#tituRojo #idea{
+    margin-top: -152px;
+    color: white;
+    font-size: 80pt;
+    font-family: 'Geo Bold';
+    text-align: center;
+}
+#papelRojo{
+    width: 65%;
+    height: 13.2%;
+    top: 29.8%;
+    left: 21%;
+    
+}
+#textoRojo{
+    font-family: 'Geo Regular';
+    color: white;
+    top: 35.5%;
+    font-size: 22pt;
+    text-align: center;
+    left: 31.5%;
+}
+
+#redes{
+    left: 93%;
+    top: 42%;
+    width: 11%;
+    height: 7.5%;
+    
+}
+
+#duo{
+    width: 45%;
+    top: 45%;
+    left: 30%;
 }
