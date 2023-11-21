@@ -193,6 +193,14 @@ body{
     font-family: 'Geo Bold';
     text-align: center;
 }
+#textoAzul{
+    font-family: 'Geo Regular';
+    color: white;
+    top: 59.5%;
+    font-size: 19pt;
+    text-align: center;
+    left: 36.5%;
+}
 
 
 #podcast{
