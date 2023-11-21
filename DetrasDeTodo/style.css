@@ -20,7 +20,7 @@ header img{
     height: 600px;
 }
 body{
-    background-image: linear-gradient(to bottom, white 80%, #6B5CA5);       
+    background: linear-gradient(to bottom, white 80%, #6B5CA5);       
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -207,4 +207,92 @@ body{
     width: 33%;
     top: 67.8%;
     left: 57.5%;
+}
+
+#andres{
+    width: 56%;
+    top: 74%;
+    left: 15%;
+}
+
+#papelRosa{
+    width: 62.5%;
+    top: 82.5%;
+    left: 21%;
+}
+#textoRosa{
+    font-family: 'Geo Regular';
+    color: white;
+    top: 85.8%;
+    font-size: 18pt;
+    text-align: center;
+    left: 35%;
+}
+
+#seamos{
+    font-family: 'Geo Regular';
+    color: white;
+    top: 93.2%;
+    font-size: 52pt;
+    text-align: center;
+    left: 14%;
+}
+
+#donar{
+    top: 97%;
+    left: 22.5%;
+    color: #C2358B;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Geo Bold';
+}
+#lista{
+    top: 98.5%;
+    left: 15%;
+    font-size: 25pt;
+    font-family: 'Geo Regular';
+    color: white;
+    word-spacing: 5px;
+}
+
+#btnDonar{
+    width: 30%;
+    top: 98%;
+    left: 55%;
+}
+
+footer{
+    margin-top: 150px;
+}
+#foot{
+    width: 100%;
+}
+#redesWhite{
+    width: 6%;
+    position: relative;
+}
+#facebook{
+    width: 9%;
+    height: 45%;
+    top: 48%;
+    left: 73%;
+}
+#instagram{
+    width: 9%;
+    height: 44.5%;
+    top: 51%;
+    left: 78%;
+}
+#youtube{
+    width: 8%;
+    height: 40%;
+    top: 57%;
+    left: 85%;
+}
+#union{
+    color: white;
+    font-family: 'Geo Regular';
+    font-size: 24pt;
+    top: 50%;
+    left: 15%;
 }
