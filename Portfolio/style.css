@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(246, 114, 114);
+}
+#FotoPersonal {
+    width: 22%;
+    border-radius: 47%;
+    border: solid;
+}
