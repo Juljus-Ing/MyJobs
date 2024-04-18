@@ -1,8 +1,14 @@
 body {
-    background-color: rgb(246, 114, 114);
+   
 }
 #FotoPersonal {
     width: 22%;
     border-radius: 47%;
     border: solid;
+}
+
+.Experiencia{
+    background-color: rgb(49, 158, 248);
+    padding: 1px;
+    
 }
