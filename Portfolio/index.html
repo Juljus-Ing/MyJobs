@@ -53,6 +53,20 @@
                 <li>SCRUM</li>
             </ul>
         </nav>
+
+        <section>
+            <h2>Preguntas frecuentes</h2>
+
+            <details>
+                <summary>¿Cuáles son tus hobbies?</summary>
+                <p>
+                    Me encanta programar para proyectos personales y tengo una afición
+                    fuerte con los videojuegos a lo que le he dedicado gran parte de mi
+                    tiempo libre en mi adolescencia y vida universitaria.
+            </details>
+
+        </section>
+
         <section class="contacto" id="contacto">
             <h2>Formulario de Contacto</h2>
             
@@ -60,9 +74,30 @@
                 <fieldset>
                     <legend>Información personal</legend>
 
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" placeholder="Julian Andrés">
+                    <div>
+                        <label>Nombre:
+                            <input type="text" name="name" placeholder="Julian Andrés" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Email:
+                            <input type="email" name="email" placeholder="ejemplo@example.com" required>
+                        </label>
+                    </div>
+                    
                 </fieldset>
+
+                <fieldset>
+                    <legend>Información adicional</legend>
+
+                    <div>
+                        <label>Teléfono
+                            <input type="tel" name="tel" placeholder="1234567890" required>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Enviar contacto">
             </form>
 
             <a 
