@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Quick Regular';
+    src: url(tipos/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: 'Quick Bold';
+    src: url(tipos/Quicksand-Bold.ttf);
+}
+
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .container-onePage {
+    width: 100vw;
+    margin-top: 10%;
+
+  }
+  
+  
+  .container-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .container-logo2 {
+    width: 65%;
+    text-align: center;
+  }
+  
+  
+  .logo_pasillos {
+    width: 65%;
+    text-align: center;
+  }
+
+  body{
+    background-image: url(images/background.png);
+    width: 100%;
+    background-size: cover;  
+    background-repeat: no-repeat;
+  }
+
+  #orange_btn{
+    width: 100%; 
+    
+  }
+  button {
+    background: none;
+    padding: 0;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -3%;
+    cursor: pointer;
+  }
+  
+
+  #globo1 {
+    display: flex; /* Ajusta el ancho del enlace al contenido */
+    margin: 0 ; /* Centra horizontalmente */  
+    margin-top: 1%;
+    }
+    #img_globo { 
+        position: absolute; 
+        width: 51vw;
+        left: 14.5%;
+        top: 145%;
+    }
+    #globo1 p{
+        font-family: 'Quick Regular';
+        margin: 0 auto;
+        color: #0F4C49;
+        font-size: 16pt;
+        position: absolute;
+        top: 187%;
+        width: 37%;
+        text-align: right;
+        left: 19.5%;
+    }
+
+    .naranja { 
+        color: #EF8114;
+        font-family: 'Quick Bold';
+    }
+    .bold{
+        font-family: 'Quick Bold';
+    }
+
+    #nelson img{
+        position: absolute;
+        top: 256%;
+        left: 33%;
+        width: 32%;
+    }
+    #nelson p{
+        font-family: 'Quick Regular';
+        margin: 0 auto;
+        color: #0F4C49;
+        font-size: 16pt;
+        position: absolute;
+        top: 325%;
+        width: 42%;
+        text-align: justify;
+        left: 28%;
+    }
+
+    #nelson #nel_text_2{
+        font-family: 'Quick Regular';
+        margin: 0 auto;
+        color: #0F4C49;
+        font-size: 16pt;
+        position: absolute;
+        top: 343%;
+        width: 42%;
+        text-align: justify;
+        left: 28%;
+    }
+    .back_orange{
+        background-color: #EF8114;
+        color: white;
+    }
+    #saber_btn{
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        left: 40%; 
+        top: 359%;
+    }
+    #saber_btn img {
+        width: 18vw;
+    }
+
+    
