@@ -14,9 +14,8 @@
   
   
   .container-onePage {
-    width: 100vw;
+    width: 98vw;
     margin-top: 10%;
-
   }
   
   
@@ -26,45 +25,51 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 95%;
   }
   
   
   .container-logo2 {
     width: 65%;
     text-align: center;
+
   }
   
   
   .logo_pasillos {
     width: 65%;
     text-align: center;
+
   }
 
   body{
     background-image: url(images/background.png);
-    width: 100%;
-    background-size: cover;  
+    background-size: cover; 
     background-repeat: no-repeat;
   }
 
-  #orange_btn{
-    width: 100%; 
-    
+  p{
+    font-family: 'Quick Regular';
+    color: #0F4C49;
+    font-size: 16pt;
   }
-  button {
-    background: none;
-    padding: 0;
-    border: none;
+
+  
+  #flechita {
     display: flex;
     margin: 0 auto;
-    margin-top: -3%;
-    cursor: pointer;
+    margin-top: -5%;
+  }
+
+  #orange_btn {
+    display: flex;
+    margin: 0 auto;
   }
   
 
   #globo1 {
-    display: flex; /* Ajusta el ancho del enlace al contenido */
-    margin: 0 ; /* Centra horizontalmente */  
+    display: flex;
+    margin: 0 ;
     margin-top: 1%;
     }
     #img_globo { 
@@ -74,10 +79,7 @@
         top: 145%;
     }
     #globo1 p{
-        font-family: 'Quick Regular';
         margin: 0 auto;
-        color: #0F4C49;
-        font-size: 16pt;
         position: absolute;
         top: 187%;
         width: 37%;
@@ -88,6 +90,14 @@
     .naranja { 
         color: #EF8114;
         font-family: 'Quick Bold';
+    }
+    .amarillo {
+      color: #F9b631;
+      font-family: 'Quick Bold';
+    }
+    .rosa {
+      color: #DDA8AC;
+      font-family: 'Quick Bold';
     }
     .bold{
         font-family: 'Quick Bold';
@@ -100,10 +110,7 @@
         width: 32%;
     }
     #nelson p{
-        font-family: 'Quick Regular';
         margin: 0 auto;
-        color: #0F4C49;
-        font-size: 16pt;
         position: absolute;
         top: 325%;
         width: 42%;
@@ -112,10 +119,7 @@
     }
 
     #nelson #nel_text_2{
-        font-family: 'Quick Regular';
         margin: 0 auto;
-        color: #0F4C49;
-        font-size: 16pt;
         position: absolute;
         top: 343%;
         width: 42%;
@@ -136,5 +140,173 @@
     #saber_btn img {
         width: 18vw;
     }
+
+    #titu2 {
+      position: absolute;
+      top: 382%;
+      left: 13%;
+      width: 75%;
+    }
+
+    #text3 {
+      margin: 0 auto;
+      position: absolute;
+      top: 451%;
+      width: 20%;
+      text-align: right;
+      left: 34%;
+      font-size: 14pt;
+    }
+
+    #text4 {
+      margin: 0 auto;
+      position: absolute;
+      top: 583%;
+      width: 23%;
+      text-align: left;
+      left: 53.5%;
+      font-size: 14pt;
+    }
+
+    #text5 {
+      margin: 0 auto;
+      position: absolute;
+      top: 658%;
+      width: 25%;
+      text-align: right;
+      left: 20%;
+      font-size: 14pt;
+    }
+
+    #text6{
+      margin: 0 auto;
+      position: absolute;
+      top: 777%;
+      width: 20%;
+      text-align: left;
+      left: 55%;
+      font-size: 14pt;
+    }
+
+    #text7 {
+      margin: 0 auto;
+      position: absolute;
+      top: 855%;
+      width: 21%;
+      text-align: right;
+      left: 25%;
+      font-size: 14pt;
+    }
+    
+    #text8{
+      margin: 0 auto;
+      position: absolute;
+      top: 991%;
+      width: 23%;
+      text-align: left;
+      left: 54%;
+      font-size: 14pt;
+    }
+
+    #text9{
+      margin: 0 auto;
+      position: absolute;
+      top: 1186%;
+      width: 29.6%;
+      text-align: center;
+      left: 35.5%;
+      font-size: 12pt;
+    }
+
+    #text10{
+      margin: 0 auto;
+      position: absolute;
+      top: 1206%;
+      width: 35%;
+      text-align: center;
+      left: 33%;
+      font-size: 12pt;
+    }
+
+    #tit3 {
+      
+      position: absolute;
+      top: 1233%;
+      left: 33%;
+      width: 35%;
+    }
+
+    #text11{
+      margin: 0 auto;
+      position: absolute;
+      top: 1308%;
+      width: 28%;
+      text-align: center;
+      left: 37%;
+      font-size: 13pt;
+    }
+
+    #leer_mas{
+      display: flex;
+      margin: 0 auto;
+      position: absolute;
+      left: 42%; 
+      top: 1333%;
+    }
+    #leer_mas img {
+        width: 18vw;
+    }
+    .footer1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 1385%;
+      left: 15%;
+    }
+    .footer1 a {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      font-family: 'Quick Regular';
+      color: #0F4C49;
+      font-size: 14pt;
+    }
+    .footer1 a:last-child  {
+      margin-bottom: 25px;
+    }
+    .footer2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 1385%;
+      left: 76%;
+    }
+    .footer2 a {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      font-family: 'Quick Regular';
+      color: #0F4C49;
+      font-size: 14pt;
+    }
+    .footer2 a:last-child  {
+      margin-bottom: 25px;
+    }
+    h2{
+      position: absolute;
+      top: 1379%;
+      left: 34%;
+      color: white;
+    }
+
+    footer{
+      margin-top: 10px;
+      height: 10px;
+      width: 100%;
+    }
+  
+    
 
     
