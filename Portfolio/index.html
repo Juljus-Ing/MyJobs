@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        <link rel="icon" href="/images/FotoBlanco.jpg" type="image/jpg">
-        <title>Julian Naranjo's Portfolio</title>
-        
-    </head>
-    <body>
-        <div class="hero-header">
-            <div class="wrapper">
-                <header>
-                    <div class="logo">
-                        <i class="fa-solid fa-a"></i>
-                        <div class="logo-text">Julian Naranjo</div>
-                    </div>
-                    <nav>
-                        <div class="togglebtn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <ul class="navlinks">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">CV</a></li>
-                            <li><a href="#">Contacto</a></li>
-                        </ul>
-                    </nav>
-                </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <link rel="icon" href="/images/FotoBlanco.jpg" type="image/jpg" />
+    <title>Julian Naranjo's Portfolio</title>
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-j"></i>
+            <div class="logo-text">Julian Naranjo</div>
+          </div>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
+            <ul class="navlinks">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">CV</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="images/FotoBlanco.jpg" alt="profile pic" />
+          </div>
+          <div class="hero-text">
+            <h5>Hola, soy <span class="input">Frontend Developer</span></h5>
+            <h1>Julian Naranjo</h1>
+            <p>
+                Ingeniero de Sistemas con proyectos
+                académicos desarrollados en diversas tecnologías, incluyendo
+                HTML, CSS, JavaScript, Java y Android. Apasionado por la
+                programación y la resolución de problemas, con experiencia en
+                el uso de metodologías ágiles para la gestión de proyectos.
+            </p>
+            <div class="btn-group">
+                <a href="#" class="btn active">Descargar CV</a>
+                <a href="#" class="btn">Contacto</a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
 
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
 
-      <!--  <header>
+        var typed = new Typed(".input", {
+            strings: ["Ingeniero de Sistemas", "Web Developer", "IT Support"],
+            typedSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        }) 
+    </script>
+
+    <!--  <header>
             <h1>
                 Julian Naranjo Portfolio
             </h1>
@@ -135,5 +179,5 @@
         </section>
 
         -->
-    </body>
+  </body>
 </html>
