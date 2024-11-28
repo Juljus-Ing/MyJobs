@@ -1,3 +1,7 @@
+:root {
+    --animate-duration: 5s;
+}
+
 html {
     background-image: url(imagenes/imagenes/Recurso\ 11.png);
     background-size: cover; 
@@ -92,4 +96,14 @@ div{
 
 #img14, #img15 {
     width: 10%;
+}
+
+#img15:hover, #img14:hover{
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+#img4:hover, #img6:hover, #img8:hover, #img10:hover, #img12:hover{
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
